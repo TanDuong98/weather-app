@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./weather-app.css">
+	<link rel="icon" href="./picture/rain.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>App weather</title>
+</head>
+<body>
+    <div class="weather">
+        <div class="background-weather day">
+            <div class="search">
+                <!-- <i class="fas fa-search search-icon"></i> -->
+                <input type="text" name="location" id="" placeholder="Location...">
+                <div class="go-search">Go</div>
+            </div>
+            <div class="sun-and-moon">
+                <span class="sun"></span>
+                <span class="moon"></span>
+            </div>
+            <img src="./picture/city_bg_transparent-1.png" class="background-weather__img" alt="">
+            <!-- <img src="./picture/city_bg_transparent-1.png" class="background-weather__img-2" alt=""> -->
+        </div>
+        <div class="information-weather">
+            <div class="location">
+                <i class="far fa-clock"></i>
+                <span class="location-name"></span>
+                <span class="location-country"></span>
+                <span class="street"></span>
+                <span class="location-day-time"></span>
+            </div>
+            <div class="temperature">
+                <span class="temperature-figure"></span>
+                <img class="cloud" src="./picture/rain.png" alt="">
+                <span class="cross"></span>
+            </div>
+            <div class="information-details">
+                <div class="wind">
+                    <i class="fas fa-wind"></i>
+                    <span class="wind-speed"></span>
+                </div>
+                <div class="vision">
+                    <i class="far fa-eye"></i>
+                    <span class="vision-figure"></span>
+                </div>
+                <div class="temperature-detail">
+                    <i class="fas fa-thermometer-three-quarters"></i>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./weather-app.js"></script>
+</body>
+</html>
